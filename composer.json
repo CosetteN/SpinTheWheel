@@ -1,0 +1,26 @@
+{
+    "name": "cosette/spin-the-wheel",
+    "description": "Challenge for SpiceRackMedia",
+    "type": "project",
+    "require": {
+        "slim/http": "^0.3.0",
+        "league/route": "^3.0",
+        "psr/http-message": "^1.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "license": "isc",
+    "authors": [
+        {
+            "name": "CosetteN",
+            "email": "cosette@newberrys.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SpinTheWheel\\": "src/"
+        }
+    }
+}
