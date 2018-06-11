@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS players (
+	player_id INT(25) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(255) NOT NULL,
+	credits INT(9) NOT NULL,
+	lifetime_spins INT(12) NOT NULL,
+	salt_value VARCHAR(255) NOT NULL
+) ENGINE=InnoDB CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+INSERT INTO players (player_id, name, credits, lifetime_spins, salt_value)
+VALUES (DEFAULT, "Joy Luck", 25, 0, "*???&5`?'3I??Wˡ??k|?5??$?b???????
+?#?&?d=sC?Cg???~02DM??מ?5qw+??ݡ?>?4:heszbGt???K+Z?%?܄???2???u$Y??????#Y");
